@@ -1,0 +1,136 @@
+:root {
+
+    --tex-color : rgb(235, 145, 61);
+}
+h1{
+    width: 100%;
+    height: 78px;
+    background-color: #f1df11;
+    text-align: center;
+    
+}
+
+
+.modal {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+
+}
+
+.modal_over {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+.modal-body {
+
+    height: 400px;
+    width: 450px;
+    background-color: #ebf7f7;
+    margin: auto;
+    margin-top: 100px;
+}
+.auth-form-head {
+   display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 5px;
+
+
+}
+.modal_iner {
+    padding: 0 32px;
+}
+.dang-nhap{
+    color: var(--tex-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.dang-ki{
+    font-size: 0.9rem;
+
+    
+}
+.auth-form-input{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20px;
+    padding: 4px;
+    border: 2px  solid rgb(228, 225, 220);
+    outline: none;
+}
+.auth-form-input:focus {
+    border-color:antiquewhite;
+}
+.aside {
+    margin-top: 40px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+   
+
+.link {
+    color: var(--tex-color);
+    text-decoration: none;
+}
+.controls{
+
+    margin-top: 80px;
+    justify-content: flex-end;
+    display: flex;
+  
+
+}
+.btn{
+    width: 100px;
+    height: 25px;
+}
+.btn-primary{
+    width: 100px;
+    height: 25px;
+    background-color: var(--tex-color);
+    color: #ebeef1;
+    border: none;
+    border-radius: 3px;
+
+}
+.social
+{
+    margin-top: 9px;
+    font-size: 9px;
+    display: flex;
+    color: #ebeef1;
+    padding: 8px;
+    width: 400px;
+    justify-content:space-around;
+   
+    
+   
+}
+.social-facebook{
+    color: #ebeef1;
+    padding: 10px;
+    background-color:rgb(53, 53, 136);
+   
+    text-decoration: none;
+
+}
+.social-google{
+    padding: 10px;
+    background-color:rgb(198, 198, 204);
+    text-decoration: none;
+
+
+
+}
+
+

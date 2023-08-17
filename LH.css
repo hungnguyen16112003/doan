@@ -1,0 +1,59 @@
+
+.heading {
+background: #000;
+text-align: center;
+color: #fff
+}
+.information {
+    width: 35%;
+    height: 400px;;
+    background-color: rgb(222, 227, 230);
+}
+.infor-head {
+    font-weight: 400;
+}
+.input-over :focus {
+   border: 3px solid rgb(174, 182, 172);
+}
+.input-one{
+    padding: 4px;
+    width: 40%;
+    margin-right:50% ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+
+}
+.input-two {
+    padding: 4px;
+    width: 40%;
+    margin-right:50% ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.input-three{
+    padding: 4px;
+    width: 40%;
+    margin-right:50% ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+button{
+    width: 80px;
+    height: 25px;
+    border: 3px;
+    border-radius: 8px;
+    margin-left: 8px;
+    color: #fff;
+    background-color:#000;
+
+}
+.all {
+    display: flex;
+    align-items: center;
+}
+.map {
+    margin-left: 20px;
+}
